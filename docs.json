@@ -22,6 +22,9 @@
                   "payments/en/guides/overview",
                   "payments/en/guides/features",
                   "payments/en/guides/quick-start",
+                  "payments/en/guides/cobo-payment-skill",
+                  "payments/en/guides/payments-ai-assistant",
+                  "payments/en/guides/glossary",
                   "payments/en/guides/changelog"
                 ]
               },
@@ -48,6 +51,7 @@
                     "group": "Build Checkout Page",
                     "pages": [
                       "payments/en/guides/payment-link",
+                      "payments/en/guides/payment-toolkit",
                       "payments/en/guides/third-party-wallet-support",
                       "payments/en/guides/wallet-fee-deduction"
                     ]
@@ -113,7 +117,8 @@
                       "payments/en/api-references/payment/update-pay-in-order",
                       "payments/en/api-references/payment/get-pay-in-order-information",
                       "payments/en/api-references/payment/list-all-pay-in-orders",
-                      "payments/en/api-references/payment/create-order-link"
+                      "payments/en/api-references/payment/create-order-link",
+                      "payments/en/api-references/payment/create-sdk-link"
                     ]
                   },
                   {
@@ -139,6 +144,12 @@
                       "payments/en/api-references/payment/list-counterparty-entries",
                       "payments/en/api-references/payment/get-counterparty-entry-information",
                       "payments/en/api-references/payment/delete-counterparty-entry"
+                    ]
+                  },
+                  {
+                    "group": "Supported Tokens",
+                    "pages": [
+                      "payments/en/api-references/payment/list-supported-tokens"
                     ]
                   }
                 ]
@@ -286,7 +297,9 @@
                   "payments/cn/guides/overview",
                   "payments/cn/guides/features",
                   "payments/cn/guides/quick-start",
-                  "payments/cn/guides/changelog"
+                  "payments/cn/guides/cobo-payment-skill",
+                  "payments/cn/guides/payments-ai-assistant",
+                  "payments/cn/guides/glossary"
                 ]
               },
               {
@@ -312,6 +325,7 @@
                     "group": "搭建收款页面",
                     "pages": [
                       "payments/cn/guides/payment-link",
+                      "payments/cn/guides/payment-toolkit",
                       "payments/cn/guides/third-party-wallet-support",
                       "payments/cn/guides/wallet-fee-deduction"
                     ]
@@ -339,10 +353,13 @@
               {
                 "group": "索引信息",
                 "pages": [
+                  "payments/cn/guides/packages",
+                  "payments/cn/guides/billing",
                   "payments/cn/guides/supported-chains-and-tokens",
                   "payments/cn/guides/status-and-events",
                   "payments/cn/guides/roles-and-permissions",
-                  "payments/cn/guides/error-codes"
+                  "payments/cn/guides/error-codes",
+                  "payments/cn/guides/changelog"
                 ]
               }
             ]
@@ -412,12 +429,7 @@
     "strict": true
   },
   "navbar": {
-    "links": [
-      {
-        "label": "Submit Feedback",
-        "href": "https://forms.zohopublic.com/cobo/form/DocumentFeedbackForm/formperma/QvLOhxJv1_JMsJ-1dleZ8Itb_7rzN-LtgvsDdxosoVI"
-      }
-    ],
+    "links": [],
     "primary": {
       "type": "button",
       "label": "Cobo Portal",
